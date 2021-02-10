@@ -1,0 +1,21 @@
+:root {
+    --color-dark: rgba(10, 10, 10, 1);
+    --color-light: rgba(215, 215, 215, 1);
+    --color-black: rgba(0, 0, 0, 1);
+    --color-white: rgba(255, 255, 255, 1);
+}
+
+.image-logo     { height: 400px; width: auto; }
+
+.font-main      { font-family: 'Ubuntu' !important; }
+.font-brand     { font-family: 'Gruppo' !important; }
+
+.text-dark      { color: var(--color-dark) !important; }
+.text-light     { color: var(--color-light) !important; }
+.text-black     { color: var(--color-black) !important; }
+.text-white     { color: var(--color-white) !important; }
+
+.bg-dark        { background-color: var(--color-dark) !important; }
+.bg-light       { background-color: var(--color-light) !important; }
+.bg-black       { background-color: var(--color-black) !important; }
+.bg-white       { background-color: var(--color-white) !important; }
