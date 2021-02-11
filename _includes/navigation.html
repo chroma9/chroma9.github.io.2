@@ -8,10 +8,22 @@
                 <a class="nav-link" href="/">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" href="/music">MUSIC</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/releases">RELEASES</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    <span>BLOG</span>
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/blog">All Posts</a>
+                    <div class="dropdown-divider"></div>
+                    {% for post in site.posts limit:10 %}
+                    <a class="dropdown-item" href="{{ post.url }}">
+                        <span>{{ post.title }}</span>
+                        <small> ({{ post.date | date: "%d %b %Y" }})</small>
+                    </a>
+                    {% endfor %}
+                </div>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto">
