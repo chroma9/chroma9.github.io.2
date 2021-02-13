@@ -1,7 +1,7 @@
 ---
 layout: infopage
-title: Releases
-description: All The Latest Chroma9 Music!
+title: Music
+description: All The Latest Chroma9 Releases!
 ---
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/track=2226708025/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://chroma9.bandcamp.com/track/a-little-piece-of-heaven-chroma9-instrumental">A Little Piece Of Heaven (Chroma9 Instrumental) by Avenged Sevenfold</a></iframe>
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/track=160357093/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://chroma9.bandcamp.com/track/binary-concept">Binary Concept by Chroma9</a></iframe>
